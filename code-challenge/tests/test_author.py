@@ -1,4 +1,4 @@
-# tests/test_author.py
+
 import pytest
 from lib.models.author import Author
 from lib.models.magazine import Magazine
