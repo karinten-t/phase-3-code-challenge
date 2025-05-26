@@ -1,4 +1,4 @@
-# lib/debug.py
+
 from lib.db.connection import get_connection
 from lib.models.author import Author
 from lib.models.magazine import Magazine
@@ -6,10 +6,10 @@ from lib.models.article import Article
 from lib.db.seed import seed_database
 
 def debug():
-    # Seed the database
+    
     seed_database()
     
-    # Example queries
+    
     print("All authors:")
     authors = [Author.find_by_id(i) for i in range(1, 4)]
     for author in authors:
