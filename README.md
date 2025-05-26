@@ -13,5 +13,5 @@ articles-system/
 ├── tests/                    # Comprehensive test suite
 ├── scripts/                  # Utility scripts
 │   ├── setup_db.py           # Database initialization
-│   └── run_queries.py        # Example query runner
+│   └── run_queries.py        # Example query runner(not required)
 └── README.md                 # Project documentation
